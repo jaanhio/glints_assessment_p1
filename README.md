@@ -1,7 +1,7 @@
 # Glints Technical assessment Part 1
 
-Clone and access repo
-`git clone repo-link && cd repo-link`
+Init
+`git clone https://github.com/jaanhio/glints_assessment_p1.git && cd glints_assessment_p1`
 
 ## 1. Factorials
 
