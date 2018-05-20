@@ -17,7 +17,7 @@ node factorialRecursive.js 10
 2. Iterative solution
 `node factorialIterative.js input` where `input` is positive integer
 ```
-node factorialRecursive.js 10
+node factorialIterative.js 10
 // output is 3628800
 ```
 
