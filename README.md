@@ -21,4 +21,22 @@ node factorialRecursive.js 10
 // output is 3628800
 ```
 
-## 2. 
+## 2. Sorting
+`node sorting.js size arr` where `size` is length of input array, `arr` is input array
+
+```
+node sorting.js 6 [1,5,4,3,2,6]
+// yes reverse 2,5
+```
+
+```
+node sorting.js 2 [4,2]
+// yes swap 2,1
+```
+
+```
+node sorting.js 3 [3,1,2]
+// no
+```
+
+## 3. Matrix Rotation
