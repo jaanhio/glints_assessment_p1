@@ -10,7 +10,7 @@ const sort = (size, arr) => {
 
   const sizeInput = parseInt(size);
   const inputArr = JSON.parse(arr);
-  // check that size indicated is matches the length of input array
+  // check that size indicated matches the length of input array
   if (sizeInput !== inputArr.length) {
     throw 'Input array size does not match the size indicated. Please check';
   }
@@ -59,6 +59,7 @@ const sort = (size, arr) => {
   }
 }
 
+// check if 2 arrays are the same
 const isEqual = (originalArrIndex, targetArrIndex) => {
   for (let i = 0; i < originalArrIndex.length; i++) {
     if (originalArrIndex[i] !== targetArrIndex[i]) {
